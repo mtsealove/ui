@@ -20,10 +20,10 @@ jobs:
         with:
           node-version: 22
           registry-url: https://npm.pkg.github.com
-          scope: '@your-github-id'
+          scope: '@mtsealove'
 
-      - run: npm ci
-      - run: npm run build
-      - run: npm publish
+      - run: yarn install
+      - run: yarn build
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
