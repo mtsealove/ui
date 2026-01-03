@@ -1,0 +1,45 @@
+:root {
+    --color-gray0: #FFFFFF;
+    --color-gray1: #FCFAF8;
+    --color-gray2: #F3F0ED;
+    --color-gray3: #E4E1DE;
+    --color-gray4: #D1CDC9;
+    --color-gray5: #AFA8A5;
+    --color-gray6: #6E6864;
+    --color-gray7: #464B50;
+    --color-gray8: #262320;
+    --color-gray9: #0D0F11;
+    --color-warm-gray2: #F3F0ED;
+    --color-text-secondary: #504A46;
+
+    --color-primary: #C48372;
+    --color-primary-opacity-28: rgba(155, 116, 106, 0.28);
+    --color-primary-opacity-65: rgba(155, 116, 106, 0.65);
+    --color-primary-opacity-20: rgba(155, 116, 106, 0.20);
+    --color-secondary: #F3E6E3;
+    --color-surface-secondary: #F3F0ED;
+    --color-button-text: #FAECEC;
+    --color-icon: #FFFFFF;
+
+    --color-badge-1: #A4CDD5;
+    --color-badge-2: #F5F4B1;
+    --color-badge-3: #F1B8E4;
+    --color-badge-4: #A9E4AD;
+    --color-badge-5: #FFCEA9;
+
+    --color-red: #E81212;
+    --color-green: #6AC917;
+    --color-blue: #2B84E3;
+    --color-button-disabled: var(--color-gray3);
+    --color-button-text-disabled: var(--color-gray5);
+
+    --color-white: #fff;
+    --bottom-inset: 0px;
+    --max-view-port-width: calc((390  / 844) * 100vh);
+    --default-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
+    --vh: 100;
+    --safe-area-top: env(safe-area-inset-top);
+    --safe-area-bottom: env(safe-area-inset-bottom);
+    --tooltip-text-color: var(--color-white);
+    font-size: 16px;
+}
